@@ -1,0 +1,107 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* header {
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+
+  h1 {
+    color: black;
+    font-size: 2em;
+    letter-spacing: 0.5rem;
+  }  
+
+.name{
+  padding-top: 350px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  color: white;
+  font-size: 4rem;
+  } 
+
+ .preloder{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+}
+
+.hide-preloader{
+    z-index: -999;
+    visibility: hidden;
+}
+
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 7%;
+  width: 9rem;
+  height: 2rem;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  }
+
+.switch-btn span {
+ letter-spacing: 0.1rem;
+  display: inline-block;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: blue;
+}
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(137, 137, 201);
+  border-radius: 8px;
+  margin: 0;
+  display: block;
+} 
+ .slide .switch {
+  left: 50%;
+} 
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  visibility: visible;
+  z-index: 999;
+}
+.hide-preloader {
+  z-index: -999;
+  visibility: hidden;
+}
+
